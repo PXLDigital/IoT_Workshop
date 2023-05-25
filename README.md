@@ -48,15 +48,15 @@ Om met de Raspberry te comuniceren moet op het Discord profiel eerst een BOT aan
 
 Surf naar de [Discord Developer Console](https://discordapp.com/developers/applications/me) en log in met het Discord account waarop de BOT moet werken of maak een nieuw account aan. Kies nu voor New Application (1), geef de applicatie een naam naar keuze (2) en kies voor Create (3).
 
-![Deel2_1](/Documentatie/Afbeeldingen/Deel2_1.jpg)
+![Deel2_1](/media/Deel2_1.jpg)
 
 Nu de applicatie aangemaakt is kies je voor Bot (1), dan voor Add Bot (2) en ten slotte voor Yes, do it! (3).
 
-![Deel2_2](/Documentatie/Afbeeldingen/Deel2_2.jpg)
+![Deel2_2](/media/Deel2_2.jpg)
 
 Nu de bot aangemaakt is kan je de Token kopiëren (1). Bewaar deze ergens want we hebben deze straks nodig om toegang te krijgen tot de bot met de Raspberry PI (sla deze bevoorbeeld op in een text bestand op je pc).
 
-![Deel2_3](/Documentatie/Afbeeldingen/Deel2_3.jpg)
+![Deel2_3](/media/Deel2_3.jpg)
 
 Ga nu terug naar Genaral Information (1) en kies voor Copy bij de Client ID (2). 
 
@@ -64,20 +64,20 @@ Ga nu terug naar Genaral Information (1) en kies voor Copy bij de Client ID (2).
 
 Surf naar https://discordapp.com/oauth2/authorize?client_id=!CLIENTID!&scope=bot&permissions=0 **en vervang !CLIENTID! door jouw client id** (voorbeeld: is je client id 123 dan ziet je link er als volgt uit:  https://discordapp.com/oauth2/authorize?client_id=123&scope=bot&permissions=0). Kies op deze pagina aan welke server de Bot toegevoegd mag worden (1) en kies voor Autoriseren (2). Je moet wel beheersrechten heben tot deze server. (Het beste kan je voor deze test even een [nieuwe server aanmaken](https://support.discord.com/hc/nl/articles/204849977-Hoe-kan-ik-een-server-cre%C3%ABren-) op je [Discord account](https://discord.com/app).)
 
-![Deel2_5](/Documentatie/Afbeeldingen/Deel2_5.jpg)
+![Deel2_5](/media/Deel2_5.jpg)
 
 Je moet eventueel nog bevestigen dat je geen Robot bent. Als je dit gedaan hebt zie je normaal op de server nu de Bot staan (ga hiervoor naar je [Discord account](https://discord.com/app)) die je hebt toegevoegd. Het enige wat we nu nog nodig hebben is het channel-ID. Ga hiervoor eerst naar de gebruikersinstellingen (1).
 
-![Deel2_6](/Documentatie/Afbeeldingen/Deel2_6.jpg)
+![Deel2_6](/media/Deel2_6.jpg)
   
 Scrol nu in de linkerbalk naar beneden en kies voor weergave (1). Activeer nu de ontwikkelaarsmodus (2). Staat je Discord ingesteld in het Engels, kies dan eerst voor Advanced (1) en activeer daarna Developer Mode (2).
 
-![Deel2_7](/Documentatie/Afbeeldingen/Deel2_7.jpg)
-![Deel2_8](/Documentatie/Afbeeldingen/Deel2_8.jpg)
+![Deel2_7](/media/Deel2_7.jpg)
+![Deel2_8](/media/Deel2_8.jpg)
 
 Klik ten slotte rechts op de kanaalnaam (1) en Kopieer ID (2).
 
-![Deel2_9](/Documentatie/Afbeeldingen/Deel2_9.jpg)
+![Deel2_9](/media/Deel2_9.jpg)
 
 Bewaar deze ID ergens want we hebben deze straks nodig om te comuniceren met de server vanaf de Raspberry PI (sla deze bevoorbeeld op in een text bestand op je pc). Deel2 is nu volledig afgerond en je kan verder gaan met Deel3.
 
@@ -86,7 +86,7 @@ Nu alles ingesteld is kan begonnen worden met het schrijven van de code. Om dit 
 
 Wanneer je nu Putty opent kijg je normaal een scherm te zien zoals hieronder weergegeven. Geef eerst het IP-adres in (1). Dit is het adres waarop de Raspberry zit binnen het netwerk. Als je de workshop van thuis volgt is dit het adres wat je onder stap 1.2 genoteerd hebt. Volge je de workshop tijdens de demo? Gebruik dan het IP adres wat tijdens de demo vermeld wordt. Als je dit adres hebt ingegeven kies je voor Open (2).
 
-![Deel3_1](/Documentatie/Afbeeldingen/Deel3_1.jpg)
+![Deel3_1](/media/Deel3_1.jpg)
 
 In de terminal zal je nu moeten inloggen. Als je niets aangepast hebt aan de inloggegevens zijn deze standaard als volgt:
 - login as: **pi**
@@ -103,20 +103,20 @@ wget -q https://raw.github.com/PXLDigital/EAI-Workshop-IoT-met-RPi/main/Code/Wor
 ```
 
 Ga nu naar WinSCP en log in met en start een nieuwe sessie (1) en kies voor Nieuwe site (2). Gebruik nu dezelfde inloggegevens als de gegevens om in te loggen op Putty. Plaatst het IP adres (3), de gebruikersnaam (4) en het wachtwoord (5). Kies ten slotte voor inloggen (6).
-![Deel3_2](/Documentatie/Afbeeldingen/Deel3_2.jpg)
+![Deel3_2](/media/Deel3_2.jpg)
 
 Als je de eerste keer inlogt op de Raspberry zal er een veiligheidsmelding komen. Antwoord hierop met Ja (1).
 
-![Deel3_3](/Documentatie/Afbeeldingen/Deel3_3.jpg)
+![Deel3_3](/media/Deel3_3.jpg)
 
 Aan de rechterzijde worden nu de systeemmappen van de Raspberry weergegeven. Navigeer nu naar "/home/pi/Desktop/IOT_Workshop/" (1) en selecteer klik met de rechter muisknop op de file Workshop.py (2). Kies voor Bewerken (3) en Nothepad++(4) (Staat Nothepad++ er niet tussen? Voeg deze dan toe met Configureren.). Nu zal de code openen in Nothepad++ en deze kan nu vanaf hier bewerkt worden.
 
-![Deel3_4](/Documentatie/Afbeeldingen/Deel3_4.jpg)
+![Deel3_4](/media/Deel3_4.jpg)
 
 Ga nu in de code opzoek naar de TOKEN (1) en de Channel_ID (2) en pas deze aan door de gegevens die genoteerd zijn tijdens het uitvoeren van Deel 2.  Elke keer dat je iets aanpast in de code moet je deze opslaan in Nothepad++. Als je dit gedaan hebt is de code ook meteen opgeslagen op de 
 Raspberry en kan deze hier uitgevoerd worden.
 
-![Deel3_5](/Documentatie/Afbeeldingen/Deel3_5.jpg)
+![Deel3_5](/media/Deel3_5.jpg)
 
 Om de code nu uit te voeren gaan we terug naar Putty. In Putty navigeren we naar de IOT_Workshop map met onderstaand commando. (Dit moet enkel gebeuren als Putty opnieuw opgestart is of als je van map verandert bent.)
 ```bash
