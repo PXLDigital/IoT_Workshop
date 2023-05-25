@@ -1,4 +1,4 @@
-# Name of the project
+# IoT Workshop PXL-Digital Electronic Engineering
 
 ![overview banner](/media/Overview.png)
 
