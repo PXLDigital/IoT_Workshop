@@ -1,6 +1,6 @@
 # IoT Workshop PXL-Digital Electronic Engineering
 
-![overview banner](/media/Overview.png)
+![overview banner](/media/banner_IoTWorkshop.png)
 
 ## About the project
 
