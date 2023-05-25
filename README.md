@@ -26,7 +26,7 @@ De Raspberry is nu verbonden met het wifi netwerkt en er werd door de router een
 Als je de workshop volgt tijdens de demo of als je in Stap1.1 voor een image gekozen hebt mag je nu naar Deel2 gaan. Heb je in Stap1.1 gekozen om met het script te werken, ga dan verder met Stap1.3.
 
 ### 1.3: Raspberry Pi 3 Sense Hat
-Details over de [Sense Hat](https://www.raspberrypi.com/products/sense-hat/) vindt op de website. De sense hat is origineel ontworpen voor de [Astro Pi](https://astro-pi.org/) challange op het ISS voor de ESA. De Sense hat is uitgerust met:   
+Details over de [Sense Hat](https://www.raspberrypi.com/products/sense-hat/) vindt u op de website. De sense hat is origineel ontworpen voor de [Astro Pi](https://astro-pi.org/) challange op het ISS voor de ESA. De Sense hat is uitgerust met:   
 - 8×8 RGB LED matrix
 - five-button joystick
 - Gyroscope
