@@ -5,7 +5,7 @@
 Steeds meer dingen – auto’s, deurbellen, rookmelders, koelkasten, noem maar op – zijn via een ‘embedded systeem’ verbonden met het internet. Internet of Things (IoT) noemen we dat. Hoe werken die systemen en wat zijn de elementaire bouwstenen om een volwaardig IoT-device te maken? In deze workshop bouwen we een eerste IoT-device. We bouwen een koppeling tussen sociale media (Discord) en een “thing” met behulp van een Raspberry Pi-computertje verbonden met een temepratuur en luchtvochtigheid sensor, een bewegingssensor en een camera. Dit alles doen we op een laagdrempelige manier. Alles is beschikbaar zodat je thuis - met je eigen Raspberry Pi – het werk kan voortzetten, als je dat wil.
 
 ## Deel 1: Installeren en configureren Raspberry PI
-Om de Raspberry PI zero te kunnen gebruiken voor het IOT project moet eerst het Raspberry Pi operating system geïnstaleerd worden (1.1). Daarna moet de wifi op de PI geconfigureerd worden en het IP genoteerd worden zodat vanaf een andere pc ingelogd kan worden op de PI via SSH (1.2). **Als je de workshop volgt tijdens de demo kan je Deel 1 volledig overslaan. Wil je het project bij je thuis nabouwen, dan moet je eerst stap 1.1 doornemen om het project te kunnen opbouwen.**
+Om de Raspberry PI 3 te kunnen gebruiken voor het IOT project moet eerst het Raspberry Pi operating system geïnstaleerd worden (1.1). Daarna moet de wifi op de PI geconfigureerd worden en het IP genoteerd worden zodat vanaf een andere pc ingelogd kan worden op de PI via SSH (1.2). **Als je de workshop volgt tijdens de demo kan je Deel 1 volledig overslaan. Wil je het project bij je thuis nabouwen, dan moet je eerst stap 1.1 doornemen om het project te kunnen opbouwen.**
 
 ### 1.1: Installeren Raspberry Pi OS
 
@@ -14,11 +14,6 @@ Om het project te kunnen bouwen moet het Raspberry PI operating system geïnstal
 Raadpleeg voor meer informatie over hoe de image te installeren de [website van Raspberry](https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility/). 
 
 Wanneer je de melding krijgt dat het schrijven van de image succesvol afgerond is mag je de kaart verwijderen uit je PC en in de Raspberry PI Zero plaatsen. Sluit vervolgens het toetsenbord, muis, camera, HDMI scherm aan.
-
-Sluit ook de sensoren aan (bouw je de workshop van thuis lees dan [hier](./Hardware/README.md) de hardware vereisten). 
-Hieronder in het filmpje kan je bekijken hoe de hardware aangesloten moet worden:
-
-https://user-images.githubusercontent.com/45118788/115524133-1a959b00-a28e-11eb-8b4a-7658c0053554.mp4
 
 Stap 1.1 is nu succesvol afgerond. Je kan nu verder gaan met stap 1.2.
 
