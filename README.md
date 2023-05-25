@@ -27,16 +27,15 @@ Als je de workshop volgt tijdens de demo of als je in Stap1.1 voor een image gek
 
 ### 1.3: Raspberry Pi 3 Sense Hat
 Details over de [Sense Hat](https://www.raspberrypi.com/products/sense-hat/) vindt op de website. De sense hat is origineel ontworpen voor de [Astro Pi](https://astro-pi.org/) challange op het ISS voor de ESA. De Sense hat is uitgerust met:   
-8×8 RGB LED matrix
-five-button joystick
-Gyroscope
-Accelerometer
-Magnetometer
-Temperature
-Barometric pressure
-Humidity
-Colour and brightness
-
+- 8×8 RGB LED matrix
+- five-button joystick
+- Gyroscope
+- Accelerometer
+- Magnetometer
+- Temperature
+- Barometric pressure
+- Humidity
+- Colour and brightness
 
 ## Deel 2: Aanmaken Discord BOT
 Om met de Raspberry te comuniceren moet op het Discord profiel eerst een BOT aangemaakt worden die gebruikt kan worden op de Raspberry PI. Deze moet vervolgens gekopeld worden aan een server. 
