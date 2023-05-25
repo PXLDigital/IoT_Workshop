@@ -37,6 +37,12 @@ Details over de [Sense Hat](https://www.raspberrypi.com/products/sense-hat/) vin
 - Humidity
 - Colour and brightness
 
+Er is een Python3 library beschikbaar voor deze sense hat. Een uitgebreide tutorial vindt u [hier](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat/).
+Zorg ervoor dat deze geïnstalleerd is, dit kan via het volgende command in de terminal:
+'''bash
+sudo apt-get install sense-hat
+'''
+
 ## Deel 2: Aanmaken Discord BOT
 Om met de Raspberry te comuniceren moet op het Discord profiel eerst een BOT aangemaakt worden die gebruikt kan worden op de Raspberry PI. Deze moet vervolgens gekopeld worden aan een server. 
 
