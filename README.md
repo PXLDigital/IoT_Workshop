@@ -46,6 +46,8 @@ if (bSwitch == TRUE)
 
 ## Contributing
 
+based on: https://github.com/PXLDigital/EAI-Workshop-IoT-met-RPi
+
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated. 
 
 Check out our [contributing page](/contributing.md) for how to add issues, features and make pull requests.
