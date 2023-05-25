@@ -13,21 +13,19 @@ Om het project te kunnen bouwen moet het Raspberry PI operating system geïnstal
 
 Raadpleeg voor meer informatie over hoe de image te installeren de [website van Raspberry](https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility/). 
 
-Wanneer je de melding krijgt dat het schrijven van de image succesvol afgerond is mag je de kaart verwijderen uit je PC en in de Raspberry PI Zero plaatsen. Sluit vervolgens het toetsenbord, muis, camera, HDMI scherm aan.
+Wanneer je de melding krijgt dat het schrijven van de image succesvol afgerond is mag je de kaart verwijderen uit je PC en in de Raspberry 3 plaatsen. Sluit vervolgens het toetsenbord, muis, camera, HDMI scherm aan.
 
 Stap 1.1 is nu succesvol afgerond. Je kan nu verder gaan met stap 1.2.
 
-### 1.2: Raspberry PI Zero verbinden met wifi en noteren IP-adres
+### 1.2: Raspberry 3 verbinden met wifi en noteren IP-adres
 
-Start de Raspberry PI Zero op en klik recht boven op het wifi icoontje (1), controleer vervolgens of de wifi ingeschakeld is (2) en selecteer daarna het gewenste netwerk (3). Er zal nu een melding komen om een wachtwoord in te geven (4). Kies na het ingeven van het wachtwoord ten slotte voor OK (5).
-![Deel1_1](/Documentatie/Afbeeldingen/Deel1_1.jpg)
+Start de Raspberry 3 op en klik recht boven op het wifi icoontje (1), controleer vervolgens of de wifi ingeschakeld is (2) en selecteer daarna het gewenste netwerk (3). Er zal nu een melding komen om een wachtwoord in te geven (4). Kies na het ingeven van het wachtwoord ten slotte voor OK (5).
 
 De Raspberry is nu verbonden met het wifi netwerkt en er werd door de router een IP-adres toegewezen aan de Raspberry. Beweeg met de cursor over het wifi icoontje (1), er zal nu een text vlak verschijnen met daarin het IP-adres (2). Noteer dit IP_adres ergens wat je zal het later nodig hebben om via de PC te verbinden met de Raspberry.
-![Deel1_2](/Documentatie/Afbeeldingen/Deel1_2.jpg)
 
 Als je de workshop volgt tijdens de demo of als je in Stap1.1 voor een image gekozen hebt mag je nu naar Deel2 gaan. Heb je in Stap1.1 gekozen om met het script te werken, ga dan verder met Stap1.3.
 
-### 1.3: Raspberry PI Zero instellen via script
+### 1.3: Raspberry 3 instellen via script
 
 **Als je in stap 1.1 koos om de instalatie uit te voeren met het script moet je deze stap nog volgen. Heb je de voorgeconfigureerde image gebruikt? Dan kan je deze stap overslaan.**
 
