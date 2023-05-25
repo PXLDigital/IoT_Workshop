@@ -17,7 +17,7 @@ Wanneer je de melding krijgt dat het schrijven van de image succesvol afgerond i
 
 Stap 1.1 is nu succesvol afgerond. Je kan nu verder gaan met stap 1.2.
 
-### 1.2: Raspberry 3 verbinden met wifi en noteren IP-adres
+### 1.2: Raspberry Pi 3 verbinden met wifi en noteren IP-adres
 
 Start de Raspberry 3 op en klik recht boven op het wifi icoontje (1), controleer vervolgens of de wifi ingeschakeld is (2) en selecteer daarna het gewenste netwerk (3). Er zal nu een melding komen om een wachtwoord in te geven (4). Kies na het ingeven van het wachtwoord ten slotte voor OK (5).
 
@@ -25,32 +25,9 @@ De Raspberry is nu verbonden met het wifi netwerkt en er werd door de router een
 
 Als je de workshop volgt tijdens de demo of als je in Stap1.1 voor een image gekozen hebt mag je nu naar Deel2 gaan. Heb je in Stap1.1 gekozen om met het script te werken, ga dan verder met Stap1.3.
 
-### 1.3: Raspberry 3 instellen via script
+### 1.3: Raspberry Pi 3 Sense Hat
+Details over de [Sense Hat](https://www.raspberrypi.com/products/sense-hat/) vindt op de website. Tijdens deze workshop gaan we 
 
-**Als je in stap 1.1 koos om de instalatie uit te voeren met het script moet je deze stap nog volgen. Heb je de voorgeconfigureerde image gebruikt? Dan kan je deze stap overslaan.**
-
-Open de terminal op de Raspberry PI door op het terminal icoontje te klikken of door gebruik te maken van de sneltots ctrl+alt+t
-
-![Deel1_3](/Documentatie/Afbeeldingen/Deel1_3.jpg)
-
-Via de terminal gaan we nu het script van GitHub downloaden zodat de Raspberry weet welke files geïnstalleerd moeten worden en hoe alles geconfigureerd moet worden.
-
-Geef onderstaand commando in om het script te downloaden: 
-```bash
-wget https://raw.github.com/PXLDigital/EAI-Workshop-IoT-met-RPi/main/Code/install.sh
-```
-
-Maak het script uitvoerbaar voor een snelle configuratie van AutoInstall:
-```bash
-chmod +x install.sh
-```
-
-Start nu het script met onderstaand commando. Kijk hier bij wel na dat je het commando zeker start met sudo. Als je dit niet doet zal het script om een wachtwoord vragen. Als dit gebeurt geeft je ctrl+c in en start je het script opnieuw met sudo.
-```bash
-sudo ./install.sh
-```
-
-Als het script uitgevoerd is zal de Raspberry opnieuw opstarten. Stap 1.3 is nu succescvol uitgevoerd. Je kan nu verder gaan met Deel2.
 
 ## Deel 2: Aanmaken Discord BOT
 Om met de Raspberry te comuniceren moet op het Discord profiel eerst een BOT aangemaakt worden die gebruikt kan worden op de Raspberry PI. Deze moet vervolgens gekopeld worden aan een server. 
