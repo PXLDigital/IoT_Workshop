@@ -58,7 +58,7 @@ Nu de bot aangemaakt is kan je de Token kopiëren (1). Bewaar deze ergens want w
 
 Kies de volgende instellingen voor de bot:
 
-![Deel2_2b](/media/Deel2_2b.jpg)
+![Deel2_2b](/media/Deel2_2b.png)
 
 
 ![Deel2_3](/media/Deel2_3.jpg)
