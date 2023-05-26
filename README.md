@@ -54,12 +54,11 @@ Nu de applicatie aangemaakt is kies je voor Bot (1), dan voor Add Bot (2) en ten
 
 ![Deel2_2](/media/Deel2_2.jpg)
 
-Nu de bot aangemaakt is kan je de Token kopiëren (1). Bewaar deze ergens want we hebben deze straks nodig om toegang te krijgen tot de bot met de Raspberry PI (sla deze bevoorbeeld op in een text bestand op je pc).
-
 Kies de volgende instellingen voor de bot:
 
 ![Deel2_2b](/media/Deel2_2b.png)
 
+Nu de bot aangemaakt is kan je de Token kopiëren (1). Bewaar deze ergens want we hebben deze straks nodig om toegang te krijgen tot de bot met de Raspberry PI (sla deze bevoorbeeld op in een text bestand op je pc).
 
 ![Deel2_3](/media/Deel2_3.jpg)
 
