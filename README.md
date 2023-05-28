@@ -135,6 +135,13 @@ sense.show_message("Hello world")
 ```
 
 ### Opdracht 2: Voeg een nieuw commando toe om de temperatuur uit te lezen.
+Maak een nieuw commando ?temp aan dat de temperatuur terug weergeeft:
+```
+temp = sense.get_temperature()
+await ctx.send(temp)
+```
+
+### Opdracht 3: Voeg een nieuw commando toe om de temperatuur uit te lezen.
 
 - 8×8 RGB LED matrix
 - five-button joystick
