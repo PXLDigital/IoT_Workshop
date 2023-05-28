@@ -86,59 +86,11 @@ Klik ten slotte rechts op de kanaalnaam (1) en Kopieer ID (2).
 Bewaar deze ID ergens want we hebben deze straks nodig om te comuniceren met de server vanaf de Raspberry PI (sla deze bevoorbeeld op in een text bestand op je pc). Deel2 is nu volledig afgerond en je kan verder gaan met Deel3.
 
 ## Deel 3: Schrijven code
-Nu alles ingesteld is kan begonnen worden met het schrijven van de code. Om dit te doen gebruiken we een laptop met daarop de code editor [nothepad++](https://notepad-plus-plus.org/downloads/), [WinSCP](https://winscp.net/eng/download.php) om de code te kunnen bewerken die op de Raspberry geplaatst is en [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) om de commando's door te sturen naar de Raspberry (dan is een scherm, toetsenbord en muis op de Raspberry niet meer nodig). Volg je de workshop van thuis? Installeer de programma's dan door op de namen van de programma's hierboven te klikken. Tijdens de workshop demo zijn de programma's reed geïnstalleerd en kan je dus direct verder gaan.
+Nu alles ingesteld is kan begonnen worden met het schrijven van de code.
 
-Wanneer je nu Putty opent kijg je normaal een scherm te zien zoals hieronder weergegeven. Geef eerst het IP-adres in (1). Dit is het adres waarop de Raspberry zit binnen het netwerk. Als je de workshop van thuis volgt is dit het adres wat je onder stap 1.2 genoteerd hebt. Volge je de workshop tijdens de demo? Gebruik dan het IP adres wat tijdens de demo vermeld wordt. Als je dit adres hebt ingegeven kies je voor Open (2).
-
-![Deel3_1](/media/Deel3_1.jpg)
-
-In de terminal zal je nu moeten inloggen. Als je niets aangepast hebt aan de inloggegevens zijn deze standaard als volgt:
 - login as: **workshop**
 - password: **pxl**
 
-Als je na het inloggen een veiligheidsmeling krijgt, beantwoordt deze dan met "Ja". Als nu onderstaand bericht in de terminal verschijnt ben je succescol ingelogd.
-```bash
-pi@raspberrypi:~ $
-```
-
-Het is nu de bedoeling om de start code de downloaden op de Raspberry zodat hier verder aan gewerkt kan worden. Kopieer het commando hier en plak dit in de de putty terminal (in Putty kan je iets plakken door op je rechter muisknop te klikken).
-```bash
-wget -q https://raw.github.com/PXLDigital/EAI-Workshop-IoT-met-RPi/main/Code/Workshop.py -O ~/Desktop/IOT_Workshop/Workshop.py
-```
-
-Ga nu naar WinSCP en log in met en start een nieuwe sessie (1) en kies voor Nieuwe site (2). Gebruik nu dezelfde inloggegevens als de gegevens om in te loggen op Putty. Plaatst het IP adres (3), de gebruikersnaam (4) en het wachtwoord (5). Kies ten slotte voor inloggen (6).
-![Deel3_2](/media/Deel3_2.jpg)
-
-Als je de eerste keer inlogt op de Raspberry zal er een veiligheidsmelding komen. Antwoord hierop met Ja (1).
-
-![Deel3_3](/media/Deel3_3.jpg)
-
-Aan de rechterzijde worden nu de systeemmappen van de Raspberry weergegeven. Navigeer nu naar "/home/pi/Desktop/IOT_Workshop/" (1) en selecteer klik met de rechter muisknop op de file Workshop.py (2). Kies voor Bewerken (3) en Nothepad++(4) (Staat Nothepad++ er niet tussen? Voeg deze dan toe met Configureren.). Nu zal de code openen in Nothepad++ en deze kan nu vanaf hier bewerkt worden.
-
-![Deel3_4](/media/Deel3_4.jpg)
-
-Ga nu in de code opzoek naar de TOKEN (1) en de Channel_ID (2) en pas deze aan door de gegevens die genoteerd zijn tijdens het uitvoeren van Deel 2.  Elke keer dat je iets aanpast in de code moet je deze opslaan in Nothepad++. Als je dit gedaan hebt is de code ook meteen opgeslagen op de 
-Raspberry en kan deze hier uitgevoerd worden.
-
-![Deel3_5](/media/Deel3_5.jpg)
-
-Om de code nu uit te voeren gaan we terug naar Putty. In Putty navigeren we naar de IOT_Workshop map met onderstaand commando. (Dit moet enkel gebeuren als Putty opnieuw opgestart is of als je van map verandert bent.)
-```bash
-cd Desktop/IOT_Workshop/
-```
-
-Nu we in de juiste map zitten kunnen we de code als volgt starten:
-```bash
-python3 Workshop.py
-```
-
-Als je nu een melding krijgt in de terminal zoals hieronder is de bot correct gestart.
-
-![Deel3_6](/Documentatie/Afbeeldingen/Deel3_6.jpg)
-
-Probeer nu in je [Discord kanaal](https://discord.com/app) ```?help``` te sturen. Als je nu een info blok als reactie teruggestuurd krijgt is de code succesvol uitgevoerd. Druk nu in putty ```ctrl+c``` in om de code te laten stoppen met uitvoeren.
-
-Alles is nu klaar om verder te programmeren. Lees nu de [wiki pagina's](https://github.com/PXLDigital/EAI-Workshop-IoT-met-RPi/wiki) waar de Workshop opgedeeld is in verschillende deel programmeer opdrachten.
 
 ## Referenties
 1. „Introducing Raspberry Pi Imager, our new imaging utility” RaspberryPi, 5 Maart 2020. [Online]. Available: https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility. [Geopend 30 Maart 2021].
@@ -154,8 +106,3 @@ based on: https://github.com/PXLDigital/EAI-Workshop-IoT-met-RPi
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated. 
 
 Check out our [contributing page](/contributing.md) for how to add issues, features and make pull requests.
-
-## People
-
-- **CONTRI BUTOR1** - _CONTRIBUTOR_ - [CONTRI BUTOR1](https://github.com/CONTRIBUTOR1)
-- **Dieter Vanrykel** - _TEACHER_ - [Dieter Vanrykel](https://github.com/Vanrykel)
