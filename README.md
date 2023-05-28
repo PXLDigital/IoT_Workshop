@@ -127,7 +127,7 @@ bot.run(TOKEN)
 
 ## Deel 4: Schrijven code 'Opdrachten'
 
-# Opdracht 1: Temperature
+### Opdracht 1: Temperature
 
 - 8×8 RGB LED matrix
 - five-button joystick
