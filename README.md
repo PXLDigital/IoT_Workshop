@@ -92,6 +92,7 @@ Nu alles ingesteld is kan begonnen worden met het schrijven van de code.
 - password: **pxl**
 
 ***Python editor***
+
 ![Thonny](/media/thonny_ide_start.png)
 
 ***Start code***
