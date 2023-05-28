@@ -119,7 +119,7 @@ async def on_ready():
     print('------')
 
 @bot.command()
-async def test(ctx):
+async def hello(ctx):
     await ctx.send("hello world")
 
 bot.run(TOKEN)
@@ -127,7 +127,14 @@ bot.run(TOKEN)
 
 ## Deel 4: Schrijven code 'Opdrachten'
 
-### Opdracht 1: Temperature
+### Opdracht 1: tekst afspelen op de RGB matrix
+Met deze code toon je 'hello world' op de rgb matrix, voeg ze toen aan de code zodat je dit kan tonen via het discord commando 'hello'.
+
+```
+sense.show_message("Hello world")
+```
+
+### Opdracht 2: Voeg een nieuw commando toe om de temperatuur uit te lezen.
 
 - 8×8 RGB LED matrix
 - five-button joystick
