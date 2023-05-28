@@ -85,7 +85,7 @@ Klik ten slotte rechts op de kanaalnaam (1) en Kopieer ID (2).
 
 Bewaar deze ID ergens want we hebben deze straks nodig om te comuniceren met de server vanaf de Raspberry PI (sla deze bevoorbeeld op in een text bestand op je pc). Deel2 is nu volledig afgerond en je kan verder gaan met Deel3.
 
-## Deel 3: Schrijven code
+## Deel 3: Schrijven code 'Hello World'
 Nu alles ingesteld is kan begonnen worden met het schrijven van de code.
 
 - login as: **workshop**
@@ -125,6 +125,19 @@ async def test(ctx):
 bot.run(TOKEN)
 ```
 
+## Deel 4: Schrijven code 'Opdrachten'
+
+# Opdracht 1: Temperature
+
+- 8×8 RGB LED matrix
+- five-button joystick
+- Gyroscope
+- Accelerometer
+- Magnetometer
+- Temperature
+- Barometric pressure
+- Humidity
+- Colour and brightness
 
 ## Referenties
 1. „Introducing Raspberry Pi Imager, our new imaging utility” RaspberryPi, 5 Maart 2020. [Online]. Available: https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility. [Geopend 30 Maart 2021].
