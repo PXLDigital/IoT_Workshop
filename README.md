@@ -91,6 +91,35 @@ Nu alles ingesteld is kan begonnen worden met het schrijven van de code.
 - login as: **workshop**
 - password: **pxl**
 
+```
+from sense_hat import SenseHat
+import discord
+from discord.ext import commands
+
+TOKEN = 'token'
+CHANNEL_ID = ch_id
+intents = discord.Intents.all()
+
+sense = SenseHat()
+
+#Toegang token voor discord server
+description = '''IOT Workshop - Discord Bot'''
+bot = commands.Bot(command_prefix='?', intents = intents)
+
+@bot.event
+async def on_ready():
+    print('Bot opgestart en ingelogd als:')
+    print(bot.user.name)
+    print(bot.user.id)
+    print('------')
+
+@bot.command()
+async def test(ctx):
+    await ctx.send("hello world")
+
+bot.run(TOKEN)
+```
+
 
 ## Referenties
 1. „Introducing Raspberry Pi Imager, our new imaging utility” RaspberryPi, 5 Maart 2020. [Online]. Available: https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility. [Geopend 30 Maart 2021].
