@@ -128,7 +128,7 @@ bot.run(TOKEN)
 ## Deel 4: Schrijven code 'Opdrachten'
 
 ### Opdracht 1: tekst afspelen op de RGB matrix
-Met deze code toon je 'hello world' op de rgb matrix, voeg ze toen aan de code zodat je dit kan tonen via het discord commando 'hello'.
+Met deze code toon je 'hello world' op de rgb matrix, voeg ze toen aan de code zodat je dit kan tonen via het discord commando '?hello'.
 
 ```
 sense.show_message("Hello world")
