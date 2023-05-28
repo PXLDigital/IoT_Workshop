@@ -91,6 +91,9 @@ Nu alles ingesteld is kan begonnen worden met het schrijven van de code.
 - login as: **workshop**
 - password: **pxl**
 
+
+
+***Start code***
 ```
 from sense_hat import SenseHat
 import discord
