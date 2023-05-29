@@ -150,6 +150,8 @@ hum = sense.get_humidity()
 pres = sense.get_pressure() 
 ```
 
+Dit zou het resultaat moeten zijn:
+![Opdracht 3](/media/Opdracht3.png)
 
 
 - 8×8 RGB LED matrix
