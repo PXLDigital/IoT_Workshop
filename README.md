@@ -141,7 +141,16 @@ temp = sense.get_temperature()
 await ctx.send(temp)
 ```
 
-### Opdracht 3: Voeg een nieuw commando toe om de temperatuur uit te lezen.
+### Opdracht 3: maak een nieuw commando om de omgevingssensoren uit te lezen.
+
+De onderstaande code leeste de sensoren:
+```
+temp = sense.get_temperature()
+hum = sense.get_humidity() 
+pres = sense.get_pressure() 
+```
+
+
 
 - 8×8 RGB LED matrix
 - five-button joystick
