@@ -42,6 +42,11 @@ Zorg ervoor dat deze geïnstalleerd is, dit kan via het volgende command in de t
 ```bash
 sudo apt-get install sense-hat
 ```
+### 1.4: Python Library voor Discord
+Een gedetaileerde uitleg over de library vindt u [hier](https://discordpy.readthedocs.io/en/stable/intro.html#installing)
+```bash
+pip3 install discord.py
+```
 
 ## Deel 2: Aanmaken Discord BOT
 Om met de Raspberry te comuniceren moet op het Discord profiel eerst een BOT aangemaakt worden die gebruikt kan worden op de Raspberry PI. Deze moet vervolgens gekopeld worden aan een server. 
