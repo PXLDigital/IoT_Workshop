@@ -62,11 +62,11 @@ Nu de bot aangemaakt is kan je de Token kopiëren (1). Bewaar deze ergens want w
 
 ![Deel2_3](/media/Deel2_3.jpg)
 
-Ga nu terug naar Genaral Information (1) en kies voor Copy bij de Client ID (2). 
+Ga nu terug naar Genaral Information (1) en kies voor Copy bij de APPLICATION ID (2). 
 
 ![Deel2_4](/media/Deel2_4.jpg)
 
-Surf naar:<br /> https://discordapp.com/oauth2/authorize?client_id=!CLIENTID!&scope=bot&permissions=0 <br />**en vervang !CLIENTID! door jouw client id** <br />(voorbeeld: is je client id 123 dan ziet je link er als volgt uit:  https://discordapp.com/oauth2/authorize?client_id=123&scope=bot&permissions=0). Kies op deze pagina aan welke server de Bot toegevoegd mag worden (1) en kies voor Autoriseren (2). Je moet wel beheersrechten heben tot deze server. (Het beste kan je voor deze test even een [nieuwe server aanmaken](https://support.discord.com/hc/nl/articles/204849977-Hoe-kan-ik-een-server-cre%C3%ABren-) op je [Discord account](https://discord.com/app).)
+Surf naar:<br /> https://discordapp.com/oauth2/authorize?client_id=!APPLICATIONID!&scope=bot&permissions=0 <br />**en vervang !APPLICATIONID! door jouw APPLICATION ID** <br />(voorbeeld: is je APPLICATION ID 123 dan ziet je link er als volgt uit:  https://discordapp.com/oauth2/authorize?client_id=123&scope=bot&permissions=0). Kies op deze pagina aan welke server de Bot toegevoegd mag worden (1) en kies voor Autoriseren (2). Je moet wel beheersrechten heben tot deze server. (Het beste kan je voor deze test even een [nieuwe server aanmaken](https://support.discord.com/hc/nl/articles/204849977-Hoe-kan-ik-een-server-cre%C3%ABren-) op je [Discord account](https://discord.com/app).)
 
 ![Deel2_5](/media/Deel2_5.jpg)
 
