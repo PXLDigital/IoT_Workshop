@@ -50,7 +50,9 @@ pip3 install discord.py
 
 ## Deel 2: Aanmaken Discord BOT
 
-![Deel2_1](/media/discord-server.jpg)
+De discord bot zal actief zijn in een server waaraan je hem toewijst. 
+Om een nieuwe server te maken voor deze workshop druk je op de "+" en geeft je je server een zinnige naam.
+![Deel2_0](/media/discord-server.jpg)
 
 
 Om met de Raspberry te comuniceren moet op het Discord profiel eerst een BOT aangemaakt worden die gebruikt kan worden op de Raspberry PI. Deze moet vervolgens gekopeld worden aan een server. 
