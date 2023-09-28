@@ -144,21 +144,40 @@ bot.run(TOKEN)
 
 ## Deel 4: Schrijven code 'Opdrachten'
 
-### Opdracht 1: tekst afspelen op de RGB matrix
+### Opdracht 1: laat de raspberry pi een foto doorsturen
+
+Voeg imports toe:
+```
+from picamera import PiCamera, Color
+```
+
+Voeg globale variabele  toe:
+```
+camera = PiCamera()
+camera.resolution(640,480)
+```
+
+De code om een foto te maken:
+```
+camera.capture('/home/workshop/Desktop/IOT_Workshop/image.jpg')
+await ctx.send(file=discord.File('/home/workshop/Desktop/IOT_Workshop/image.jpg'))
+```
+
+### Opdracht 2: tekst afspelen op de RGB matrix
 Met deze code toon je 'hello world' op de rgb matrix, voeg ze toen aan de code zodat je dit kan tonen via het discord commando '?hello'.
 
 ```
 sense.show_message("Hello world")
 ```
 
-### Opdracht 2: Voeg een nieuw commando toe om de temperatuur uit te lezen.
+### Opdracht 3: Voeg een nieuw commando toe om de temperatuur uit te lezen.
 Maak een nieuw commando ?temp aan dat de temperatuur terug weergeeft:
 ```
 temp = sense.get_temperature()
 await ctx.send(temp)
 ```
 
-### Opdracht 3: maak een nieuw commando om de omgevingssensoren uit te lezen.
+### Opdracht 4: maak een nieuw commando om de omgevingssensoren uit te lezen.
 
 De onderstaande code leeste de sensoren:
 ```
@@ -171,15 +190,6 @@ Dit zou het resultaat moeten zijn:
 ![Opdracht 3](/media/Opdracht3.png)
 
 
-- 8×8 RGB LED matrix
-- five-button joystick
-- Gyroscope
-- Accelerometer
-- Magnetometer
-- Temperature
-- Barometric pressure
-- Humidity
-- Colour and brightness
 
 ## Referenties
 1. „Introducing Raspberry Pi Imager, our new imaging utility” RaspberryPi, 5 Maart 2020. [Online]. Available: https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility. [Geopend 30 Maart 2021].
