@@ -47,6 +47,8 @@ Een gedetaileerde uitleg over de library vindt u [hier](https://discordpy.readth
 ```bash
 pip3 install discord.py
 ```
+### 1.5: Python MP4 Library voor Discord
+
 
 ## Deel 2: Aanmaken Discord BOT
 
