@@ -48,7 +48,12 @@ Een gedetaileerde uitleg over de library vindt u [hier](https://discordpy.readth
 pip3 install discord.py
 ```
 ### 1.5: Python MP4 Library voor Discord
+Via de webcam worden video's opgenomen in het h264 format echter is dit format niet geschikt om door te sturen via Discord.
+Hiervoor hebben we MP4 nodig, om MP4 video's te maken hebben we extra library nodig 'MP4Box'
 
+```bash
+sudo apt install -y gpac 
+```
 
 ## Deel 2: Aanmaken Discord BOT
 
